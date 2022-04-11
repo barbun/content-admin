@@ -8,9 +8,11 @@ In GovCMS \(and most CMSs\) there are different ‘roles’ for different users 
 
 GovCMS uses the following roles:
 
-* **Content Editor** - A Content Editor can typically create new content and content revisions and mark them for review by an Approver.
+* **Content Author** - A Content Author can typically create new content and content revisions and mark them for review by an Approver.
 * **Content Approver** - A Content Approver can publish, archive and delete content created by Content Editors.
 * **Site Administrator** - A Site Administrator can delete content, revert content revisions, place content blocks and perform other content management tasks that require special caution and experience.
+
+In addition, the default Drupal CMS roles such as **Anonymous user** and **Authenticated user** are also included out-of-the-box which allows for general access control to site's functions depending on whether a user is logged in or not.
 
 ### Why multiple roles?
 
